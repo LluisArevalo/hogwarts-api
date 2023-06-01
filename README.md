@@ -1,3 +1,6 @@
+![Hogwarts](https://github.com/LluisArevalo/hogwarts-api/assets/14905088/5f91a5c3-28b0-4573-8f9b-30b48f42028e)
+
+
 # Hogwarts API
 
 Small project to show how GraphQL works using as example Hogwarts.
