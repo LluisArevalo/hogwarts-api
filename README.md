@@ -6,14 +6,12 @@ The project uses the House-Student relation to show how easy becomes to join dif
 
 It also provides a mutation to add or substract points to a specific house, to make Hogwarts teacher's lifes easier.
 
-## Technologies
+## Steps
 
-- Node.js
-- Express
-- GraphQL
-- MongoDB
-- Mongoose
-- Yarn
+- Create a `.env` file with the content described in the section below, adding the correct PORT and DDBB connection string.
+- Execute the seed by running the command `yarn db:seed`.
+- Start the project with either `yarn start` or `yarn dev`.
+- Go to `http://locahost:${PORT}/graphql` to view GraphiQL and be able to execute your queries.
 
 ## .env file
 
@@ -37,9 +35,11 @@ The project contains three scripts to make its usage easier:
 - `dev`: Will run `nodemon` to start the project in a DEV environment, auto-reloading the server with every change you do.
 - `start`: Will execute the project in a PROD environment.
 
-## Steps
+## Technologies
 
-- Create a `.env` file with the content described in the section above, adding the correct PORT and DDBB connection string.
-- Execute the seed by running the command `yarn db:seed`.
-- Start the project with either `yarn start` or `yarn dev`.
-- Go to `http://locahost:${PORT}/graphql` to view GraphiQL and be able to execute your queries.
+- Node.js
+- Express
+- GraphQL
+- MongoDB
+- Mongoose
+- Yarn
